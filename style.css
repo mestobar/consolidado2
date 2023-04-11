@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#digimons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.digi {
+  text-align: center;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+   -webkit-box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);
+  -moz-box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);
+  box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);  
+}
+.digi img {
+  width: 250px;
+}
+.digi h2 {
+  margin: 0px;
+}
+
+#detalle {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+.deta {
+  text-align: center;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+   -webkit-box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);
+  -moz-box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);
+  box-shadow: 11px 16px 31px -16px rgba(0,0,0,0.85);  
+}
+.deta img {
+  width: 250px;
+}
+.digi h2 {
+  margin: 0px;
+}
